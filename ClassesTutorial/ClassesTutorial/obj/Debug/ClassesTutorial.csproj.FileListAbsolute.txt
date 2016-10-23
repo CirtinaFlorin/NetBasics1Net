@@ -1,0 +1,6 @@
+c:\users\florin\documents\visual studio 2015\Projects\UbbCourse1\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.exe.config
+c:\users\florin\documents\visual studio 2015\Projects\UbbCourse1\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.exe
+c:\users\florin\documents\visual studio 2015\Projects\UbbCourse1\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.pdb
+c:\users\florin\documents\visual studio 2015\Projects\UbbCourse1\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.csprojResolveAssemblyReference.cache
+c:\users\florin\documents\visual studio 2015\Projects\UbbCourse1\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.exe
+c:\users\florin\documents\visual studio 2015\Projects\UbbCourse1\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.pdb

@@ -20,17 +20,35 @@ namespace ClassesTutorial
             //Console.WriteLine("Mercedes is "+ mercedes.Description);
             //Console.WriteLine("Mercedes costs " + mercedes.Price);
 
-            Mercedes m1 = new Mercedes();
+            //Mercedes m1 = new Mercedes();
             //m.PrintMercedesLogo();
-            m1.PrintNewMercedes(Mercedes.staticcounter++);
-            Mercedes m2 = new Mercedes();
-            Mercedes m3 = new Mercedes();
-            Mercedes m4 = new Mercedes();
-            m2.PrintNewMercedes(Mercedes.staticcounter++);
-            m3.PrintNewMercedes(Mercedes.staticcounter++);
-            m4.PrintNewMercedes(Mercedes.staticcounter++);
+            //m1.PrintNewMercedes(Mercedes.staticcounter++);
+            //Mercedes m2 = new Mercedes();
+            //Mercedes m3 = new Mercedes();
+            //Mercedes m4 = new Mercedes();
+            //m2.PrintNewMercedes(Mercedes.staticcounter++);
+            //m3.PrintNewMercedes(Mercedes.staticcounter++);
+            //m4.PrintNewMercedes(Mercedes.staticcounter++);
 
-            Mercedes.StartEngine();
+            //Mercedes.StartEngine();
+
+            Mercedes remainingNoKm = new Mercedes();
+            remainingNoKm.ShowRemainingNoOfKM(10, 7);
+
+            double numberOfKilometerLeft;
+            numberOfKilometerLeft= remainingNoKm.ShowRemainingNoOfKM(10, 7);
+            Console.WriteLine("Numarul de km ramasi: "+numberOfKilometerLeft);
+
+            Mercedes noMilliseconds = new Mercedes();
+            noMilliseconds.StartEngine(12);
+
+            Mercedes printConsum = new Mercedes();
+            printConsum.CalculateConsumption(10);
+
+            double calcConsumcar;
+            calcConsumcar = printConsum.CalculateConsumption(10);
+            Console.WriteLine("The car consumption is " + calcConsumcar);
+
             Console.ReadKey();
 
             

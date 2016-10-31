@@ -35,5 +35,25 @@ namespace ClassesTutorial
         public static void StartEngine() {
             Console.WriteLine("Engine Started");
         }
+        public void StartEngine(int noMillisecond)
+        {
+            Console.WriteLine("The car is starting in " + noMillisecond + " milliseconds.");
+        }
+
+        public double ShowRemainingNoOfKM(double noOfFuelLiters, double Consumption) {
+            //Console.WriteLine("Remaining km:" + noOfFuelLiters / Consumption * 100);
+            double result = 0;
+            result = noOfFuelLiters / Consumption * 100;
+            return result;
+        }
+
+        public double CalculateConsumption(params int[] kms) {
+            double sum = 0;
+            foreach (int km in kms)
+                sum += km;
+            return sum / 100 * 7;
+        }
+
+      
     }
 }

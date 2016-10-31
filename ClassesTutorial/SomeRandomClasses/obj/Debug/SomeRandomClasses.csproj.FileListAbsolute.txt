@@ -1,0 +1,7 @@
+C:\UbbCourse1\ClassesTutorial\SomeRandomClasses\obj\Debug\SomeRandomClasses.csprojResolveAssemblyReference.cache
+C:\UbbCourse1\ClassesTutorial\SomeRandomClasses\bin\Debug\SomeRandomClasses.dll
+C:\UbbCourse1\ClassesTutorial\SomeRandomClasses\bin\Debug\SomeRandomClasses.pdb
+C:\UbbCourse1\ClassesTutorial\SomeRandomClasses\bin\Debug\ClassesTutorial.exe
+C:\UbbCourse1\ClassesTutorial\SomeRandomClasses\bin\Debug\ClassesTutorial.pdb
+C:\UbbCourse1\ClassesTutorial\SomeRandomClasses\obj\Debug\SomeRandomClasses.dll
+C:\UbbCourse1\ClassesTutorial\SomeRandomClasses\obj\Debug\SomeRandomClasses.pdb

@@ -49,6 +49,36 @@ namespace ClassesTutorial
             calcConsumcar = printConsum.CalculateConsumption(10);
             Console.WriteLine("The car consumption is " + calcConsumcar);
 
+            Audi a = new ClassesTutorial.Audi();
+            a.CarStart();
+
+            a.Vitezometru(1);
+            a.Vitezometru(2);
+            a.Vitezometru(3);
+            a.Vitezometru(0);
+
+            Apple mar = new Apple();
+            Orange portocala = new Orange();
+            Ionatan tip = new Ionatan();
+            Fruit fruct = new Fruit();
+
+            Ionatan i = new Ionatan();
+            i.GetCalories();
+            Apple ap = new Apple();
+            ap.GetCalories();
+            Fruit h = new Fruit();
+            h.GetCalories();
+
+            FruitBasket cos = new FruitBasket();
+            cos.addFruit(fruct);
+            cos.addFruit(portocala);
+            cos.addFruit(portocala);
+            cos.addFruit(portocala);
+
+            cos.displayFruitCalories();
+
+
+
             Console.ReadKey();
 
             
